@@ -79,7 +79,7 @@ exports.addDeveloper = function(req, res){
         sqlFunction.getConnection().then(function(data) {  
             var query = `INSERT INTO developers VALUES ('',LOWER('${body.developername}'), LOWER('${body.company}'), LOWER('${body.language}'), NOW())`;
             sqlFunction.rowsAffected(query).then(function(inserted) {
-                res.send(successObj(inserted))
+                //res.send(successObj(inserted))
                 if(inserted){
                     res.send(successObj(inserted))
                     resolve(); 
