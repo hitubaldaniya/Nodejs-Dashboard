@@ -1,6 +1,9 @@
 # NodeJS SQL Project - Developer Dashboard
 The app developed using nodeJS framework with SQL and responsive design.
 
+## Install all dependencies
+- npm install
+
 ## Setup Local Environment
 - Used MySQL database to store this application data.
 - To create database with sample data run a script available in *database_script* folder into the SQL query.
