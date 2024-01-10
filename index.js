@@ -18,7 +18,7 @@ function dbInterface() {
 
 var DBInterface = new dbInterface();
 var apiFunction = require('./backend/apiFunction')
-var sqlFunction = require('./sqlDB/sqlFunctions')
+// var sqlFunction = require('./sqlDB/sqlFunctions')
 
 const bodyParser = require('body-parser'); 
 
@@ -38,7 +38,7 @@ if (process.env.LOCAL) {
 
 app.get('/', function(req, res) {
   apiFunction.getOverview().then((result) => {
-    res.render('home', { host:host, title:"Cloudoki Dashboard", data: result.body });
+    res.render('home', { host:host, title:"Nodejs Dashboard", data: result.body });
 	}).catch(err => {
     res.render('404', { host:host, title:"404 page not found", data: "" });
 	});

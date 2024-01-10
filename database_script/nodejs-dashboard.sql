@@ -19,10 +19,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `cloudoki`
+-- Database: `nodejs-dashboard`
 --
-CREATE DATABASE IF NOT EXISTS `cloudoki` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `cloudoki`;
+CREATE DATABASE IF NOT EXISTS `nodejs-dashboard` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `nodejs-dashboard`;
 
 -- --------------------------------------------------------
 
@@ -43,16 +43,16 @@ CREATE TABLE `developers` (
 --
 
 INSERT INTO `developers` (`id`, `name`, `company`, `language`, `created`) VALUES
-(1, 'developer one', 'cloudoki lisbon', ' nodejs,  python', '2019-06-20 01:11:20'),
-(2, 'developer two', 'cloudoki porto', ' python', '2019-06-20 01:13:11'),
-(3, 'developer three', 'cloudoki braga', ' java', '2019-06-20 01:13:30'),
-(4, 'developer four', 'cloudoki aveiro', ' angularjs', '2019-06-20 01:13:56'),
-(5, 'developer five', 'cloudoki portimão', ' go lang', '2019-06-20 01:14:13'),
-(6, 'developer six', 'cloudoki lisbon', ' nodejs,  java,  go lang', '2019-06-20 01:14:44'),
-(7, 'developer seven', 'cloudoki braga', ' nodejs,  go lang', '2019-06-20 01:15:16'),
-(8, 'developer eight', 'cloudoki aveiro', ' python,  java', '2019-06-20 01:15:41'),
-(9, 'developer nine', 'cloudoki porto', ' angularjs,  nodejs', '2019-06-20 01:16:23'),
-(10, 'developer ten', 'cloudoki braga', ' nodejs,  python,  java,  angularjs,  go lang', '2019-06-20 01:17:05');
+(1, 'developer one', 'Devs lisbon', ' nodejs,  python', '2019-06-20 01:11:20'),
+(2, 'developer two', 'Devs porto', ' python', '2019-06-20 01:13:11'),
+(3, 'developer three', 'Devs braga', ' java', '2019-06-20 01:13:30'),
+(4, 'developer four', 'Devs aveiro', ' angularjs', '2019-06-20 01:13:56'),
+(5, 'developer five', 'Devs portimão', ' go lang', '2019-06-20 01:14:13'),
+(6, 'developer six', 'Devs lisbon', ' nodejs,  java,  go lang', '2019-06-20 01:14:44'),
+(7, 'developer seven', 'Devs braga', ' nodejs,  go lang', '2019-06-20 01:15:16'),
+(8, 'developer eight', 'Devs aveiro', ' python,  java', '2019-06-20 01:15:41'),
+(9, 'developer nine', 'Devs porto', ' angularjs,  nodejs', '2019-06-20 01:16:23'),
+(10, 'developer ten', 'Devs braga', ' nodejs,  python,  java,  angularjs,  go lang', '2019-06-20 01:17:05');
 
 --
 -- Indexes for dumped tables
