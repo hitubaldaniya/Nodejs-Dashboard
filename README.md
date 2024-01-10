@@ -17,5 +17,11 @@ The app developed using nodeJS framework with SQL and responsive design.
 - You can install MySQL.
 - Copy database_script/nodejs-dashboard.sql and run it into the MySQL query it will automatically create database, tables and add some dummy data into the table.
 
+## Simple database integration
+- You can download xamp from the internet and install it.
+- Open xampp control panel and you just need to start Apache server and MySQL.
+- Open phpmyadmin from http://localhost/phpmyadmin (default port for phpmyadmin).
+- Goto the SQL tab from top bar and paste database_script/nodejs-dashboard.sql and just run to install dummy table and data.
+
 ## Run App
 - npm start
